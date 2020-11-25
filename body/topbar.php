@@ -1,9 +1,9 @@
 <div class="topbar">  
-    <a class="app-name" href="index.php">EPSI-Chat</a>
+    <a class="app-name" href="index.php">EPSI-Workshop</a>
     <span class="menu">
         <?php
             if(isLogged() == 1){
-                ?>
+                ?> 
                     <a href="index.php?page=membres" class="<?php echo ($page=='membres') ? 'active' : '' ?>">Membres</a>
                     <a href="index.php?page=logout">Déconnexion</a>
                 <?php
